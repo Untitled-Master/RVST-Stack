@@ -1,4 +1,9 @@
 import { useState } from 'react'
+import { FaReact } from "react-icons/fa";
+import { SiVite, SiShadcnui } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -63,11 +68,19 @@ function App() {
                 hover:border-[#FAFAFA]/20 transition-all duration-300 hover:-translate-y-1"
             >
               <div className="flex flex-col h-full">
-                <h3 className="text-xl font-semibold group-hover:bg-gradient-to-r from-[#FAFAFA] to-[#FAFAFA]/70 
-                  group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
-                  {feature}
-                </h3>
-                <p className="mt-4 text-[#FAFAFA]/70 flex-grow">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="p-3 rounded-xl bg-[#FAFAFA]/10 group-hover:bg-[#FAFAFA]/[0.15] transition-all duration-300">
+                    {index === 0 && <FaReact className="w-6 h-6 text-[#61DAFB] group-hover:animate-spin-slow" />}
+                    {index === 1 && <SiVite className="w-6 h-6 text-[#646CFF]" />}
+                    {index === 2 && <SiShadcnui className="w-6 h-6 text-[#FAFAFA] group-hover:text-[#FAFAFA]/90" />}
+                    {index === 3 && <RiTailwindCssFill className="w-6 h-6 text-[#38BDF8]" />}
+                  </div>
+                  <h3 className="text-xl font-semibold group-hover:bg-gradient-to-r from-[#FAFAFA] to-[#FAFAFA]/70 
+                    group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                    {feature}
+                  </h3>
+                </div>
+                <p className="text-[#FAFAFA]/70 flex-grow">
                   {index === 0 && "A JavaScript library for building user interfaces"}
                   {index === 1 && "Next Generation Frontend Tooling"}
                   {index === 2 && "Beautifully designed components that you can copy and paste"}
