@@ -40,7 +40,6 @@ npm run dev
 src/
 ├── App.jsx
 ├── components/
-│ └── Counter.jsx
 ├── styles/
 │ └── main.css
 └── index.css
