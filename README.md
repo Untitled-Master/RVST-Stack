@@ -16,7 +16,7 @@ A modern React development stack featuring Vite, Shadcn UI, and Tailwind CSS.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/rvst-stack.git
+git https://github.com/Untitled-Master/RVST-Stack.git
 cd rvst-stack
 ```
 
