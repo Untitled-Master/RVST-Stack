@@ -1,68 +1,92 @@
-# RVST-Stack
+# 🚀 create-rvst
 
-A modern React development stack featuring Vite, Shadcn UI, and Tailwind CSS.
+A modern CLI tool to scaffold a new **RVST-Stack** project using **Vite**, **React**, **Shadcn UI**, and **Tailwind CSS**.
 
-## 🚀 Features
+## 🌟 Features
 
-- ⚡️ **Vite** - Lightning fast build tool and dev server
+- ⚡ **Vite** - Lightning-fast build tool and dev server
 - ⚛️ **React** - Popular UI library for building user interfaces
 - 🎨 **Shadcn UI** - High-quality, accessible component system
 - 🌊 **Tailwind CSS** - Utility-first CSS framework
 - 🔥 **Hot Module Replacement (HMR)** - Instant feedback during development
-- 🧰 **ESLint** - Code linting and best practices
+- 🧪 **ESLint** - Code linting for best practices
 
-## 📦 Getting Started
+---
 
-1. Clone the repository
+## 📚 Installation
 
-```bash
-git https://github.com/Untitled-Master/RVST-Stack.git
-cd rvst-stack
+To create a new **RVST-Stack** project, run:
+
+```sh
+npx create-rvst my-app
 ```
 
-2. Install dependencies
+or using **npm**:
 
-```bash
-npm install
+```sh
+npm create rvst my-app
 ```
 
-3. Start the development server
+Then navigate to your project and start the development server:
 
-```bash
+```sh
+cd my-app
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+Open your browser and go to **[http://localhost:5173](http://localhost:5173)**.
 
-## 📦 Project Structure
+---
 
-```bash
-src/
-├── App.jsx
-├── components/
-├── styles/
-│ └── main.css
-└── index.css
+## 📁 Project Structure
+
 ```
+my-app/
+├── src/
+│   ├── App.jsx
+│   ├── components/
+│   ├── styles/
+│   │   └── main.css
+│   └── index.css
+├── public/
+├── package.json
+├── vite.config.js
+├── README.md
+└── .eslintrc.json
+```
+
+---
 
 ## 🛠️ Tech Stack
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Shadcn UI](https://ui.shadcn.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
+| Technology  | Description |
+|-------------|------------|
+| [React](https://react.dev/) | JavaScript library for UI development |
+| [Vite](https://vitejs.dev/) | Fast build tool and dev server |
+| [Shadcn UI](https://ui.shadcn.com/) | Pre-styled accessible UI components |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
+| [ESLint](https://eslint.org/) | Code linting and formatting |
 
-## 🔌 Vite Plugins
+---
 
-This template includes two official Vite plugins for React:
+## 🔌 Vite Plugins Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) - Uses Babel for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) - Uses SWC for Fast Refresh
+| Plugin | Description |
+|--------|------------|
+| `@vitejs/plugin-react` | Uses Babel for Fast Refresh |
+| `@vitejs/plugin-react-swc` | Uses SWC for Fast Refresh |
 
-## 📝 License
-
-MIT
+---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!  
+Feel free to **fork** this repo and submit a PR. 🚀
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.  
+See [LICENSE](LICENSE) for more details.
+
